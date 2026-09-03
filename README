@@ -1,9 +1,11 @@
+### How run the application
+1.- Run ./abr-basic.sh
+2.- The HLS chunks will be stored in he **output** folder
+
 ### How monitor the HLS streaming
+1.- Run the ws_python.py code. It is a basic Web Server.
 
-1.- Create a basic http server
-You can run the ws_python.py code
-
-2.- Using VLC to monitor the streams
+2.- Monitor using VLC
 http://localhost:8080/master.m3u8
 
 You can also monitor each rendition
