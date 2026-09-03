@@ -5,7 +5,7 @@ HOST = "0.0.0.0"
 PORT = 8080
 
 # Directory path
-DIRECTORY = "/home/gstreamer/1_ABR_FFMPEG/output"
+DIRECTORY = "path where the HLS chunks have been stored"
 
 os.chdir(DIRECTORY)
 
