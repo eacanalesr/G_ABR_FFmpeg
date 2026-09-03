@@ -1,0 +1,11 @@
+### How monitor the HLS streaming
+
+1.- Create a basic http server
+
+Output is the folder where the master manifest and chuncks are
+cd /home/gstreamer/1_ABR_FFMPEG/output
+python3 -m http.server 8080
+
+2.- Using VLC
+http://localhost:8080/master.m3u8
+
