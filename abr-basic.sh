@@ -4,6 +4,7 @@
 # For this basic example, any filter is applied only to video. 
 
 INPUT="<path where your video file is"
+#As OUTPUT_DIR uses /path/output, where "output" will be the final folder where the chunks will be stored 
 OUTPUT_DIR="path where the HLS chunks have been stored"
 
 mkdir -p "$OUTPUT_DIR"
